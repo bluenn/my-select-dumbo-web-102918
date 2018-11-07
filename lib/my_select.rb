@@ -5,7 +5,7 @@ def my_select(collection)
    return "This block should not run!"
 
  else
-   
+
    i = 0
    while i < collection.length
      new_collection << yield(collection[i])
