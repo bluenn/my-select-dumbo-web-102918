@@ -4,7 +4,7 @@ def my_select(collection)
  if collection.length == 0
    return "This block should not run!"
 
- else
+ else if collection.length != 0
    new_collection[]
    i = 0
    while i < collection.length
