@@ -2,7 +2,7 @@ def my_select(collection)
  # your code here!
 
  if collection.length == 0
-   return "This block should not run!"
+   "This block should not run!"
 
  else if collection.length != 0
    new_collection[]
