@@ -3,7 +3,7 @@ def my_select(collection)
   if collection.length == 0
     "This block should not run!"
   end
-  
+
    new_collection = []
    i = 0
    while i < collection.length
@@ -19,8 +19,9 @@ end
 #call it with do , end and pipe, have to define array variable first
 nums = [1, 2, 3, 4, 5]
 my_select(nums) do |num|
-  if num % 2 == 0
-    num
-  end
+  num.even?
+  # if num % 2 == 0
+  #   num
+  # end
 end
-# num.even? --this is alternate choice
+# num.even? --could say this to call even numbers?
