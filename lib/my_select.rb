@@ -10,4 +10,5 @@ def my_select(collection)
      new_collection << yield collection[i]
    end
    new_collection
+ end   
 end
