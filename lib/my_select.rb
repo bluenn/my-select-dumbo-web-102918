@@ -24,4 +24,3 @@ my_select(nums) do |num|
   #   num
   # end
 end
-
