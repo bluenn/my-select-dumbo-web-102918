@@ -15,5 +15,7 @@ end
 #call it with do , end and pipe, have to define array variable first
 nums = [1, 2, 3, 4, 5] 
 my_select(nums) do |num|
-  num.even
-end  
+  if num % 2 == 0
+    num
+  end  
+end
