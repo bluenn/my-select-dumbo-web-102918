@@ -19,9 +19,9 @@ end
 #call it with do , end and pipe, have to define array variable first
 nums = [1, 2, 3, 4, 5]
 my_select(nums) do |num|
-  num.even?
+  num.even? #could say num even? to return even numbers
   # if num % 2 == 0
   #   num
   # end
 end
-# num.even? --could say this to call even numbers?
+
