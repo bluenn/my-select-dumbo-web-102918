@@ -13,9 +13,9 @@ def my_select(collection)
    new_collection
 end
 #call it with do , end and pipe, have to define array variable first
-nums = [1, 2, 3, 4, 5] 
+nums = [1, 2, 3, 4, 5]
 my_select(nums) do |num|
   if num % 2 == 0
     num
-  end  
+  end
 end
